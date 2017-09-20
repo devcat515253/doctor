@@ -1,0 +1,994 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+
+
+  .container
+    width: 100%
+  html
+    font-size: 9px
+  .header
+    .title
+      //margin-left: 10rem
+    &-content
+      margin-left: 10rem
+
+  .experts
+    min-height: inherit
+
+  .content .dropdown ul li a
+    font-size: 1.6rem
+
+  .content-body .serviceTable ul li
+    font-size: 1.6rem
+    padding-left: 0
+
+  .content-nav
+    width: 25%
+
+  .content-body .title-description
+    font-size: 1.7rem
+
+  .content-nav>ul>li>a
+    font-size: 1.6rem
+
+  .content-body
+    width: 72%
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+  html
+    font-size: 8px
+
+  .header
+    &-content
+      margin-top: 15rem
+
+
+  .experts
+    min-height: inherit
+
+  .btn
+    &-red
+      font-size: 1.3rem
+
+  .services
+    .content
+      //justify-content: center
+      .tabs
+        width: 65%
+        &-nav
+          a
+            font-size: 1.4rem
+
+  .header
+    .topLine-contacts
+      .contacts-phone
+        line-height: 3.3rem
+
+  .nav
+    ul
+       .dropdown
+          .subMenu
+            padding: 1rem 0
+            li
+              a
+                padding: 0
+                padding-left: 2rem
+                line-height: 3rem
+
+  .forParents
+    min-height: inherit
+    padding-bottom: 5rem
+
+  .services
+    min-height: inherit
+    padding-bottom: 5rem
+
+
+  .footer
+    .container
+      justify-content: flex-start
+      flex-wrap: wrap
+    .logo
+      width: 22%
+    .contacts
+      flex-direction: column
+
+  .experts
+    background-repeat: repeat
+    background-size: contain
+    .items
+      .item
+        width: 21%
+
+  .services .content .tabs
+    width: 70%
+
+  .header-page3
+    .topLine
+      flex-wrap: wrap
+      justify-content: space-between
+      &-logo
+        order: 1
+        max-width: 228px
+        height: auto
+        img
+          max-width: 228px
+          height: auto
+      &-contacts
+        order: 2
+        width: 50%
+      &-slider
+        margin: 0
+        margin-left: auto
+        margin-right: auto
+        //margin-left: 5rem
+        margin-top: 1rem
+        .slide1
+          width: 100%
+          justify-content: center
+        order: 3
+        width: 80%
+        .header-content
+          width: 100%
+          justify-content: center
+          order: 4
+
+
+  .content-nav>ul>li>a.active:before
+    border-width: 21px 0 21px 10px
+
+  .content .dropdown ul li a
+    min-height: 41px
+
+  .slick-next
+    left: 100%
+
+  .slick-prev
+    right: 100%
+
+  .specialict
+    .content
+      &-nav
+        width: 27%
+      &-body
+        width: 70%
+        margin-left: 4rem
+        margin-right: 0
+        .items
+          width: 100%
+          .item
+            width: 100%
+
+  .requestCall
+    width: 80%
+
+  .btn-fullWidth
+    font-size: 16px
+
+  .header-page3 .topLine-slider .header-content .description-right .info
+    font-size: 14px
+  .header-page3 .topLine-slider .header-content .description-left .info
+    font-size: 14px
+
+  .header-page3 .topLine-slider .header-content .description .count
+    font-size: 30px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 21px 0 21px 10px
+
+
+  .btn-wide
+    font-size: 18px !important
+
+  .btn-wide-middle
+    font-size: 15px !important
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+  .btn-red
+    font-size: 1.4rem
+    &:hover
+      background: #f24841
+
+
+  .header
+    min-height: inherit
+    padding-bottom: 7rem
+    &-content
+      margin-left: 4rem
+      margin-top: 5rem
+    &:before
+      width: 70px
+      height: 200px
+      background-size: cover
+      top: 58%
+    &:after
+      bottom: 8%
+      right: 0
+      width: 50px
+      height: 120px
+      background-size: cover
+    .title
+      padding-left: 0
+
+  .forParents
+    .content
+      .item-info
+        line-height: 1.8rem
+      &-left
+        width: inherit
+        margin-right: 3rem
+      &-right
+        width: inherit
+
+
+  .experts
+    background-repeat: repeat
+    background-size: contain
+    .items
+      .item
+        width: 21%
+
+  .services
+    background: url("../img/trianglesWithout.png") no-repeat
+    background-size: contain
+    //background-position:  bottom left
+    background-color: #FAFAFA
+    .content
+      //justify-content: center
+      .tabs
+        width: 100%
+        &-nav
+          ul
+            flex-direction: column
+            width: 100%
+          a
+            font-size: 1.4rem
+
+
+
+          li
+            display: block
+
+            >a
+              width: 100%
+              height: 100%
+              background: lighten(#ed3237, 38%)
+              font-size: 1.8rem
+              line-height: 1.9
+              padding: .5rem 2rem
+              &:hover
+                background: lighten(#ed3237, 33%)
+
+              &.active
+                background: lighten(#ed3237, 33%)
+                border: none
+
+        &-content
+          div
+            &.show1
+              display: block
+            .flex-container
+              flex-direction: column
+              width: 100%
+              padding: 1rem 0 2rem 1.5rem
+              background: rgba(255,2555,2555,.7)
+              .column
+                a
+                  font-size: 1.7rem
+                  padding-left: 2rem
+
+              .column
+                display: flex
+                flex-direction: column
+                a:last-child
+                  //margin-top: 0
+                //padding-left: 1.5rem
+
+        &-content
+          margin-top: 0
+  .header-page3
+    padding-bottom: 2rem
+  .content
+    padding-bottom: 2rem
+    margin-top: 3rem
+    .container
+      flex-direction: column
+
+    &-nav
+      order: 1
+      width: inherit
+      margin-bottom: 2rem
+    &-body
+      order: 2
+      width: inherit
+      .methods
+        margin-bottom: 7rem
+
+  .nav-page3
+    a:hover
+      color: white
+    .active
+      color: white
+
+
+
+
+
+  .hidden-menu
+    display: flex
+    justify-content: space-between
+    padding: 1rem
+    span
+      color: #656565
+      font-size: 2rem
+      font-weight: 400
+      padding: 0 2rem
+      line-height: 2.5rem
+    .toggle-mnu
+      display: block
+      margin-right: 2rem
+
+
+
+
+
+  .nav
+    position: relative
+    z-index: 1
+    //padding: 1rem
+    nav
+      &.show
+        ul
+          transform: translateX(0)
+
+
+    ul
+      flex-direction: column
+      align-items: flex-start
+      position: absolute
+      background: #4FB95D
+      color: white
+      top: 100%
+      left: 0
+      transform: translateX(-100%)
+      transition: transform .5s ease
+      li
+        width: 100%
+        a:hover
+          //background: lighten(#ed3237, 29%)
+        &.dropdown
+          display: block
+          >a:after
+            filter: brightness(0) invert(1)
+          .subMenu
+            padding-bottom: 0
+            padding-top: 0
+            display: flex
+            flex-direction: column
+            background: #4FB95D
+            padding-top: 1rem
+            padding-bottom: 1rem
+
+      li
+        a
+          color: white
+          width: 100%
+          padding-right: 3rem
+          font-size: 2.5rem
+          &:hover
+            //background-color: darken(#4FB95D,5%)
+            //border: none
+        &.dropdown
+          .subMenu
+            position: relative
+
+  .tabs-nav ul li a:hover
+    border-bottom: 2px solid transparent
+
+
+
+
+  .nav ul li:hover
+    background: darken(#4FB95D,5%)
+
+  .footer
+    &-nav
+      //width: 50%
+      //margin-left: auto
+      margin: 0 auto
+      display: flex
+      //justify-content: flex-end
+      //margin-left: 10%
+      margin-bottom: 1rem
+      ul
+        display: flex
+        flex-direction: row
+        width: 100%
+        li
+          display: block
+          &:first-child
+            a:first-child
+              margin: 0
+          a
+            display: inline-block
+            padding: .5rem 1rem
+    .container
+      justify-content: space-between
+      flex-wrap: wrap
+    .logo
+      width: 28%
+    .contacts
+      flex-direction: column
+
+  .nav ul .dropdown .subMenu li a
+    font-size: 2rem
+    line-height: 2
+
+
+  .content-body
+    .methods
+      .flex-container
+        flex-direction: column
+        .right
+          border: 1px dashed #e8e8e8
+          border-width: 0 1px 1px 1px
+
+  .content-nav>ul>li>a
+    font-size: 14px
+
+  .content-body .methods ul li
+    font-size: 14px
+
+  .content-body .serviceTable ul li
+    font-size: 14px
+
+  .content-body .serviceTable ul li
+
+    padding-left: 2.6rem
+
+  .specialict
+    .content
+      &-body
+        width: 100%
+        margin-left: 0
+        .items
+          .item-info
+            .year
+              .info
+                font-size: 13px
+
+  .requestCall .container .input-info
+    line-height: 6rem
+
+  .specialict .content-nav
+    width: 100%
+
+  .btn-fullWidth
+    font-size: 16px
+
+  .nav-page3 .dropdown .active
+    color: white
+    background: darken(#4FB95D,5%)
+
+  .specialict
+    .nav-page3 .dropdown .active
+      color: white
+      background: darken(#4FB95D,5%)
+
+  .header-page3 .topLine-slider .slide1
+    font-size: 14px
+
+
+@media only screen and (max-width : 640px)
+  .footer
+    &-nav
+      margin: 1rem auto
+      order: 3
+      a
+        font-size: 15px
+    .logo
+      width: 28%
+      order: 1
+    .contacts
+      order: 2
+    &-info
+      margin: 1rem auto
+      order: 4
+      text-align: center
+      font-size: 14px
+      span
+        font-size: inherit
+        &.subInfo
+          a
+            font-size: inherit
+      br
+        display: none
+
+  .content-body
+    .serviceTable
+      flex-direction: column
+      //align-items: center
+      .left
+        width: 100%
+
+      .right
+        width: 100%
+        margin-top: 2rem
+      ul
+        li
+          padding-right: 2rem
+          font-size: 13px
+
+  .content-body
+    .methods
+      align-items: stretch
+      .right
+        margin-top: 0
+
+  .requestCall
+    width: 91%
+    .container
+      input[type=text]
+        font-size: 21px
+      .title
+        font-size: 24px
+        padding: 30px 0 30px 0
+      label
+        width: 100%
+        span
+          font-size: 14px
+
+
+
+
+  .requestCall .close
+    right: 0
+    top: -50px
+
+
+  .header-page3
+    .topLine
+      &-logo
+      &-contacts
+        width: 50%
+      &-slider
+        margin-top: 1rem
+        margin-left: auto
+        margin-right: auto
+        .description
+          flex-direction: column
+          &-left
+            margin-right: 0
+
+  .policy .close
+    position: absolute
+    top: -50px
+    right: 0
+
+
+
+  .btn-wide
+    width: 100%
+
+  .btn-wide-middle
+    font-size: 15px !important
+
+
+@media only screen and (max-width : 540px)
+
+  .services
+    padding-bottom: 0
+
+  .experts
+    background-repeat: repeat
+    background-size: contain
+    .items
+      justify-content: space-around
+      .item
+        width: 26%
+
+
+  .services
+    .content
+      //justify-content: center
+      .tabs
+        width: 100%
+        &-nav
+          display: flex
+          justify-content: center
+
+  .title
+    line-height: 4.6rem
+
+  .forParents
+    .content
+      flex-wrap: wrap
+      justify-content: inherit
+      .item-info
+      &-left
+        margin-bottom: 3rem
+        margin-right: 0
+      &-right
+
+  .tabs-content .column a
+    line-height: 2rem
+
+  .nav ul li a
+    font-size: 2.5rem
+
+
+  .tabs-nav ul li a
+    padding: 0 1.7rem
+
+  .header .topLine-logo
+    width: 40%
+
+  .header .topLine-contacts .contacts-address
+    display: none
+
+  .header-content .title
+    font-size: 4.5rem
+    line-height: 5rem
+
+
+
+  .slick-next
+    right: -34px
+
+
+  .specialict .content-body
+    .nav-img
+      justify-content: space-around
+      .item
+        width: 26%
+
+
+  .policy
+    width: 100%
+    padding-left: 1rem
+    padding-right: 0
+    padding-bottom: 3rem
+    border-radius: 0
+    .container
+      width: 100%
+      .title
+        font-size: 23px
+      .policy-content
+        max-height: 300px
+
+
+  .btn-wide
+    font-size: 17px !important
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px)
+
+  .contacts
+
+    .photo
+      display: none
+    .map
+      height: 200px
+
+
+  .header-content
+    margin-left: 0
+
+  .nav ul li a
+    padding: 1rem 2.6rem
+
+  .footer-nav ul li a
+    //display: block
+
+
+  .footer
+    &-nav
+      ul
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        //text-align: center
+        //flex-direction: column
+      a
+        font-size: 15px
+    .logo
+      width: 28%
+      order: 1
+    .contacts
+      order: 2
+  .header-page3
+    .topLine
+      &-logo
+      &-contacts
+        width: 60%
+
+  .specialict
+    .content
+      &-body
+        width: 100%
+        margin-left: 0
+        .items
+          .item-info
+            flex-direction: column
+            align-items: center
+            text-align: center
+            br
+              display: none
+            &:first-child
+              align-items: center
+            .align
+              display: flex
+              flex-direction: column
+              align-items: center
+              text-align: center
+            &:last-child
+              align-items: center
+              text-align: center
+              br
+                display: none
+            .year
+              &:last-child
+                align-items: center
+                text-align: center
+          .item-photo
+            .button
+
+              &-left
+
+                transform: translateY(-50%) translateX(+150%)
+                &:hover
+                  background-color: darken(#e8e8e8,5%)
+                img
+                  margin-right: 2px
+              &-right
+                transform: translateY(-50%) translateX(-150%)
+
+  .requestCall .container .input-info
+    right: 0
+
+  .btn-fullWidth
+    font-size: 13px
+
+  .header-page3 .topLine-slider .header-content .description-right .info
+    font-size: 13px
+  .header-page3 .topLine-slider .header-content .description-left .info
+    font-size: 13px
+
+  .header-page3 .topLine-slider .header-content .description .count
+    font-size: 20px
+
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 21px 0 21px 12px
+
+  .requestCall .container span
+    //flex-direction: column
+    text-align: left
+    flex-wrap: wrap
+    align-items: flex-start
+    justify-content: flex-start
+    &:before
+      margin-top: .5rem
+    a
+      display: block
+      margin-left: 4rem
+      margin-top: -1.7rem
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 424px)
+  .footer
+    .container
+      flex-direction: column
+    .contacts
+      margin: 0
+    .logo
+      width: 50%
+
+  .header
+    .topLine
+      &-logo
+        overflow: hidden
+        width: 22%
+        border-radius: 45%
+        img
+          width: 356%
+          max-width: inherit
+    &-content
+      .title
+        text-align: center
+      .description
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+  .experts
+    .items
+      .item
+        width: 40%
+
+  .header
+    &-bg
+      display: none
+
+  .content-body .serviceTable ul li
+    padding-left: 0
+
+
+  .specialict .content-body .items .item-name
+    text-align: center
+
+  .specialict .content-body .items .item-photo .button-left
+    transform: translateY(-50%) translateX(+80%)
+  .specialict .content-body .items .item-photo .button-right
+    transform: translateY(-50%) translateX(-80%)
+
+  .specialict .content-body
+    .nav-img
+      //justify-content: space-between
+      .item
+        width: 40%
+
+  .btn-wide
+    width: 100%
+
+  .btn-wide-middle
+    width: 100%
+
+  .requestCall
+    top: 57%
+    .container
+      width: 100%
+    .close
+      width: 35px
+      height: 35px
+      background-size: cover
+      top: -43px
+
+@media only screen and (max-width : 320px)
+  /**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width : 320px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+@media only screen and (min-width : 425px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+@media only screen and (min-width : 540px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+@media only screen and (min-width : 640px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 44px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 24px 0 24px 13px
+    top: -2px
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  .header-page3 .topLine-contacts
+    width: 21%
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 50px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 27px 0 27px 13px
+    top: -2px
+
+@media only screen and (min-width : 1200px)
+  .content
+    &-nav
+      >ul
+        >li
+          >a
+            min-height: 54px
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 29px 0 29px 20px
+    top: -2px
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px)
+  .requestCall
+    width: 1170px
+    border-radius: 20px
+    background: #fff
+    box-shadow:  1px 7px 40px 0px rgba(85, 85, 85, 0.8)
+    .container
+      width: 50%
+      box-shadow: none
+      label:nth-child(4)
+       align-self: flex-start
+      .close
+        left: 150%
+
+  .content-nav>ul>li.active>a:first-child:before
+    border-width: 29px 0 29px 20px
+    top: -2px
+
+
+@media only screen and (min-width : 1440px)
+  .header
+    &-bg
+      background-position: 72% bottom
+
+@media only screen and (min-width : 1600px)
+  .header
+    &-bg
+      background-position: 65% bottom
+

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800" rel="stylesheet">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<!-- Подключаем API  карт 2.x  -->
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+<header class="header">
+	<div class="header-bg"></div>
+	<div class="container">
+
+		<div class="topLine">
+
+
+			<div class="topLine-logo">
+				<a href="#" ><img src="img/logo.png" alt="" class="img-responsive"></a>
+			</div>
+
+			<div class="topLine-contacts">
+				<div class="contacts">
+
+					<div class="contacts-address">
+						ул. Чернышевского 75а, с 8 до 20
+					</div>
+
+					<div class="contacts-phone">
+						<a targetPopup="#requestCall" href="tel:+783912854805"  class="popup" >8 (391) 285-48-05</a>
+					</div>
+
+					<div class="contacts-signUp">
+						<a targetPopup="#requestCall" href="#" class="btn btn-red shaking popup glare">
+							Записаться на прием
+						</a>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	<div class="header-content">
+
+		<h1 class="title">Опытные детские <br>
+			и взрослые <br>
+			врачи в <br>
+			Красноярске</h1>
+
+		<div class="description">
+			<div class="description-left">
+				<div class="count">
+					<span>более</span>
+					20
+				</div>
+				<div class="info">
+					квалифицированных <br>
+					специалистов
+				</div>
+			</div>
+
+			<div class="description-right">
+				<div class="count">
+					<span>более</span>
+					12 лет
+				</div>
+				<div class="info">
+					на рынке медицинских <br>
+					услуг Красноярска
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	</div>
+</header>
+
+<section class="nav">
+
+	<div class="hidden-menu ">
+
+		<span>Открыть меню</span>
+		<a href="#" class="toggle-mnu hidden-lg"><span></span></a>
+	</div>
+
+
+	<nav>
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li class="dropdown">
+				<a href="#">Услуги</a>
+				<ul class="subMenu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+					<li><a href="#">Пункт 3</a></li>
+					<li><a href="#">Пункт 4</a></li>
+					<li><a href="#">Пункт 5</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Специалисты</a></li>
+			<li><a href="#">О клинике</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
+</section>
+
+
+<section class="services">
+	<div class="container">
+		<h2 class="title">Какие услуги мы предоставляем</h2>
+		<div class="content">
+			<div class="tabs">
+				<div class="tabs-nav">
+					<ul>
+						<li><a href="#doctor" class="active">Прием у врача</a></li>
+						<li><a href="#physioOffice">Физио-кабинет</a></li>
+						<li><a href="#ultrasoundOffice">Узи-кабинет</a></li>
+						<li><a href="#massage">Массаж</a></li>
+					</ul>
+				</div>
+				<div class="tabs-content">
+					<div id="doctor" class="show">
+						<div class="flex-container">
+							<div class="column">
+								<a href="#">Вызов педиатра на дом</a>
+								<a href="#">Справка в бассейн</a>
+								<a href="#">Приём врача детского кардиолога</a>
+								<a href="#">Приём врача невролога </a>
+								<a href="#">Приём врача аллерголога–иммунолога </a>
+								<a href="#">Логопед  30 минут (консультация, занятие)</a>
+								<a href="#">Логопед  60 минут (консультация, занятие)</a>
+							</div>
+
+							<div class="column">
+								<a href="#">Приём врача терапевта </a>
+								<a href="#">Приём врача ортопеда-травматолога </a>
+								<a href="#">Приём врача психотерапевта </a>
+								<a href="#">Приём врача гастроэнтеролога </a>
+								<a href="#">Приём детского эндокринолога  </a>
+								<a href="#">Логопедический массаж 60 минут</a>
+							</div>
+						</div>
+					</div>
+
+					<div id="physioOffice">
+
+						<div class="flex-container">
+							<div class="column">
+
+								<a href="#">Приём врача детского кардиолога</a>
+								<a href="#">Вызов педиатра на дом</a>
+								<a href="#">Справка в бассейн</a>
+								<a href="#">Приём врача невролога </a>
+								<a href="#">Приём врача аллерголога–иммунолога </a>
+								<a href="#">Логопед  30 минут (консультация, занятие)</a>
+								<a href="#">Логопед  60 минут (консультация, занятие)</a>
+							</div>
+
+							<div class="column">
+								<a href="#">Приём врача терапевта </a>
+								<a href="#">Приём врача ортопеда-травматолога </a>
+								<a href="#">Приём врача психотерапевта </a>
+								<a href="#">Приём врача гастроэнтеролога </a>
+								<a href="#">Приём детского эндокринолога  </a>
+								<a href="#">Логопедический массаж 60 минут</a>
+							</div>
+						</div>
+					</div>
+
+					<div id="ultrasoundOffice">
+
+						<div class="flex-container">
+							<div class="column">
+								<a href="#">Вызов педиатра на дом</a>
+								<a href="#">Справка в бассейн</a>
+								<a href="#">Приём врача детского кардиолога</a>
+								<a href="#">Логопед  30 минут (консультация, занятие)</a>
+								<a href="#">Логопед  60 минут (консультация, занятие)</a>
+								<a href="#">Приём врача невролога </a>
+								<a href="#">Приём врача аллерголога–иммунолога </a>
+
+							</div>
+
+							<div class="column">
+								<a href="#">Приём врача терапевта </a>
+								<a href="#">Приём врача ортопеда-травматолога </a>
+								<a href="#">Приём врача психотерапевта </a>
+								<a href="#">Приём врача гастроэнтеролога </a>
+								<a href="#">Приём детского эндокринолога  </a>
+								<a href="#">Логопедический массаж 60 минут</a>
+							</div>
+						</div>
+					</div>
+
+					<div id="massage">
+
+						<div class="flex-container">
+							<div class="column">
+								<a href="#" >Вызов педиатра на дом</a>
+								<a href="#">Справка в бассейн</a>
+								<a href="#">Приём врача детского кардиолога</a>
+								<a href="#">Приём врача невролога </a>
+								<a href="#">Приём врача аллерголога–иммунолога </a>
+								<a href="#">Логопед  30 минут (консультация, занятие)</a>
+								<a href="#">Логопед  60 минут (консультация, занятие)</a>
+							</div>
+
+							<div class="column">
+								<a href="#">Приём врача гастроэнтеролога </a>
+								<a href="#">Приём детского эндокринолога  </a>
+								<a href="#">Приём врача терапевта </a>
+								<a href="#">Приём врача ортопеда-травматолога </a>
+								<a href="#">Приём врача психотерапевта </a>
+
+								<a href="#">Логопедический массаж 60 минут</a>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="experts">
+<div class="container">
+	<h2 class="title">Наши специалисты - наша гордость</h2>
+
+	<div class="items">
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+		<div class="item">
+			<div class="item-img">
+				<img  class="img-responsive" src="img/experts-photo.png" alt="">
+			</div>
+			<div class="item-name">
+				Лебедева Ирина Николаевна
+			</div>
+			<div class="item-profession">Педиатор-нефролог</div>
+			<a href="#" class="detail">Подробнее</a>
+		</div>
+
+	</div>
+</div>
+</section>
+
+<section class="forParents">
+	<div class="container">
+		<h2 class="title">Полезные статьи для родителей</h2>
+
+		<div class="content">
+			<div class="content-left">
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</div>
+				</div>
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</div>
+				</div>
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</div>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это <br>
+						текст-"рыба", часто <br>
+						используемый в печати и <br>
+						вэб-дизайне.</div>
+				</div>
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это <br>
+						текст-"рыба", часто <br>
+						используемый в печати и <br>
+						вэб-дизайне.</div>
+				</div>
+				<div class="item">
+					<div class="item-photo"><img class="img-responsive" src="img/forParents-photo.png" alt=""></div>
+					<div class="item-title"><a href="#">Детская и подростковая гинекология</a></div>
+					<div class="item-info">Lorem Ipsum - это <br>
+						текст-"рыба", часто <br>
+						используемый в печати и <br>
+						вэб-дизайне.</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</section>
+
+
+
+<section class="contacts">
+	<div class="container">
+		<h2 class="title">Где мы находимся</h2>
+		<span class="subTitle">Красноярск, ул. Чернышевского 75а</span>
+
+
+		<div class="flex-container">
+			<div id="map" class="map"><!--<iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3Ae90f177b14c7b7ac2f97752cf0fdf26a5dd652db93796b2a3251d9750fd54ade&amp;lang=uk_UA&amp;scroll=true&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>--></div>
+			<div class="photo"><img class="img-responsive" src="img/map-photo.png" alt=""></div>
+		</div>
+	</div>
+</section>
+
+
+<footer class="footer">
+	<div class="container">
+
+		<div class="logo"><a href="#"><img class="img-responsive" src="img/logo-footer.png" alt=""></a></div>
+
+		<div class="footer-nav">
+			<ul>
+				<li><a href="#">Главная</a> <a href="#">Контакты</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Наши специалисты</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-info">
+			<span class="info">Имеются противопоказания, <br>
+					необходима консультация <br>
+					специалиста</span>
+			<span class="subInfo"><a class="popup policyMobile" targetPopup="#policy" href="#">Политика конфедециальности</a></span>
+		</div>
+
+		<div class="contacts">
+
+			<div class="contacts-phone">
+				<a targetPopup="#requestCall" href="tel:+783912854805"  class="popup" >8 (391) 285-48-05</a>
+			</div>
+
+			<div class="contacts-signUp">
+				<a  targetPopup="#requestCall" href="#" class="btn btn-red shaking popup glare">
+					Записаться на прием
+				</a>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+
+<div class="requestCall" id="requestCall">
+	<div class="container">
+		<h1 class="title">Заказать обратный звонок</h1>
+
+		<form action="#" method="post" class="form">
+			<label  class="input-wr">
+				<input type="text" placeholder="Имя"  name="name_form" class="rfield">
+				<span class="input-info"></span>
+			</label>
+			<label  class="input-wr">
+				<input id="phone" type="tel" placeholder="Телефон *" required name="phone_form"  class="rfield">
+				<span class="input-info">Введите телефон(5 цифр)</span>
+			</label>
+			<label >
+
+				<input type="checkbox"  id="checkPolicy" checked>
+				<span >Я согласен с  <a class="popup" targetPopup="#policy" href="#"> политикой конфиденциальности </a></span>
+				<span class="input-info">Примите соглашение</span>
+			</label>
+
+			<label >
+				<input type="button" class="submit ">
+				<a href="#" class="btn btn-red btn-fullWidth ">
+					Заказать обратный звонок
+				</a>
+			</label>
+		</form>
+		<div class="close"></div>
+	</div>
+
+
+
+</div>
+
+<div class="requestCall succes">
+	<div class="container">
+		<h1 class="title">Спасибо! Звонок принят.</h1>
+
+
+		<div class="close"></div>
+	</div>
+
+
+</div>
+
+
+<div class="policy" id="policy" >
+	<div class="container">
+		<h1 class="title">Политика конфиденциальности</h1>
+
+
+		<div class="policy-content">
+			<p>
+				Филогенез, в том числе, готично начинает глубокий стиль.
+				Согласно теории "вчувствования", разработанной Теодором Липпсом,
+				филогенез многопланово диссонирует элитарный меланхолик. Пушкин
+				подарил Гоголю фабулу "Мертвых душ" не потому, что теоретическая
+				социология аккумулирует онтологический статус искусства. Фарс, в
+				первом приближении, неравномерен. Эти слова совершенно справедливы,
+				однако Возрождение дает сокращенный синтез искусств, что-то подобное
+				можно встретить в работах Ауэрбаха и Тандлера.
+			</p>
+			<p>
+				Экспрессионизм, следовательно, дает бессознательный гений. Архетип конвенционален.
+				Творческая доминанта монотонно заканчивает первоначальный онтогенез,
+				однако само по себе состояние игры всегда амбивалентно. Возвышенное
+				заканчивает персональный эдипов комплекс. Художественное опосредование,
+				следовательно, сложно. Богатство мировой литературы от Платона до
+				Ортеги-и-Гассета свидетельствует о том, что восприятие сотворчества
+				многопланово заканчивает бессознательный канон.
+			</p>
+			<p>
+				Нивелирование индивидуальности, следовательно, представляет собой суггестивный
+				структурализм. Коллективное бессознательное, в том числе, имеет персональный
+				биографический метод. Его экзистенциальная тоска выступает как побудительный
+				мотив творчества, однако флегматик имитирует принцип артистизма.
+				Художественная богема аккумулирует конструктивный диахронический подход.
+			</p>
+
+			<p>
+				Филогенез, в том числе, готично начинает глубокий стиль. Согласно теории
+				"вчувствования", разработанной Теодором Липпсом, филогенез многопланово
+				диссонирует элитарный меланхолик. Пушкин подарил Гоголю фабулу "Мертвых душ"
+				не потому, что теоретическая социология аккумулирует онтологический статус
+				искусства. Фарс, в первом приближении, неравномерен. Эти слова совершенно
+				справедливы, однако Возрождение дает сокращенный синтез искусств, что-то
+				подобное можно встретить в работах Ауэрбаха и Тандлера.
+			</p>
+			<p>
+				Экспрессионизм, следовательно, дает бессознательный гений. Архетип
+				конвенционален. Творческая доминанта монотонно заканчивает первоначальный
+				онтогенез, однако само по себе состояние игры всегда амбивалентно.
+				Возвышенное заканчивает персональный эдипов комплекс. Художественное
+				опосредование, следовательно, сложно. Богатство мировой литературы от
+				Платона до Ортеги-и-Гассета свидетельствует о том, что восприятие сотворчества
+				многопланово заканчивает бессознательный канон.
+			</p>
+			<p>
+				Нивелирование индивидуальности, следовательно, представляет собой суггестивный
+				структурализм. Коллективное бессознательное, в том числе, имеет персональный
+				биографический метод. Его экзистенциальная тоска выступает как побудительный
+				мотив творчества, однако флегматик имитирует принцип артистизма.
+				Художественная богема аккумулирует конструктивный диахронический подход.
+			</p>
+
+		</div>
+
+		<div class="close"></div>
+	</div>
+
+
+
+</div>
+
+
+<div class="overlay"></div>
+
+
+<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
